@@ -1,5 +1,10 @@
 # ol-indent Markdownlint Custom Rule
 
+[![Build
+Status](https://api.travis-ci.com/pbredenberg/markdownlint-ol-indent.svg?branch=master)](https://travis-ci.com/pbredenberg/markdownlint-ol-indent)
+
+## What?
+
 This rule follows the pattern of Markdownlint's [ul-indent](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md007---unordered-list-indentation).
 
 ## Usage
