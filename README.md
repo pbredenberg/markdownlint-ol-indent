@@ -1,26 +1,32 @@
-# ol-indent Markdownlint Custom Rule
+# markdownlint ol-indent custom rule
 
 [![Build
 Status](https://api.travis-ci.com/pbredenberg/markdownlint-ol-indent.svg?branch=master)](https://travis-ci.com/pbredenberg/markdownlint-ol-indent)
 
-## What?
+## What
 
-This rule follows the pattern of Markdownlint's [ul-indent](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md007---unordered-list-indentation).
+This rule follows the pattern of Markdownlint's
+[ul-indent](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md007---unordered-list-indentation)
+to provide indentation checking for ordered lists.
+
+## Why?
+
+Markdownlint currently does no linting for ordered list indentation.
 
 ## Usage
 
-TODO
+Include this rule in your configuration's customRules[] configuration array.
 
-## Good Example
+```javascript
+olIndent = require('/path/to/ol-indent');
 
-1. List Item
-   1. List Item
-   2. List Item
-2. List Item
-3. List Item
-
-## Bad Example
-
-1. List Item
-    1. List Item
-    2. List Item
+const options = {
+   config: {
+      // Your configuration options go here.
+   },
+   files: [
+      // References to your Markdown files go here.
+   ],
+   customRules: [ olIndent ],
+};
+```
