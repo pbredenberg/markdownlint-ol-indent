@@ -1,0 +1,24 @@
+{
+    "default": true,
+    "line-length": {
+       "line_length": 90
+    },
+    "no-multiple-blanks": { "maximum": 2 },
+    "no-trailing-punctuation": {
+        "punctuation": ":;-"
+    },
+    "hr-style": { "style": "---" },
+    "code-block-style": { "style": "fenced" },
+    "code-fence-style": { "style": "backtick" },
+    "ul-start-left": false,
+    "ul-indent": {
+       "indent": 3,
+       "first_level_indented": true
+    },
+    "ol-start-left": false,
+    "ol-indent": {
+       "indent": 3,
+       "first_level_indented": true
+    },
+    "no-alt-text": false
+}
