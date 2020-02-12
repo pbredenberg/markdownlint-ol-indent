@@ -1,0 +1,38 @@
+{
+  "name": "markdownlint-ol-indent",
+  "version": "0.0.1",
+  "description": "Linting rule to enforce ordered list indentation for markdownlint.",
+  "main": "ol-indent.js",
+  "scripts": {
+    "test": "check-node-version --npm 6.13.4",
+    "commitlint": "commitlint --from fdbfa1d"
+  },
+  "keywords": [
+    "markdown",
+    "markdownlint",
+    "rules",
+    "ol",
+    "indentation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "markdownlint": "0.19.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "8.3.5",
+    "@commitlint/travis-cli": "8.3.5",
+    "@silvermine/eslint-config": "3.0.0-rc.0",
+    "check-node-version": "4.0.2",
+    "cz-conventional-changelog": "3.1.0",
+    "eslint": "6.8.0",
+    "grunt": "1.0.4",
+    "grunt-eslint": "22.0.0",
+    "standard-version": "7.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
