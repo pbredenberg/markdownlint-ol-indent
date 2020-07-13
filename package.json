@@ -31,7 +31,7 @@
     "grunt-eslint": "22.0.0",
     "grunt-markdownlint": "2.9.0",
     "markdownlint-cli": "0.22.0",
-    "standard-version": "7.1.0"
+    "standard-version": "8.0.1"
   },
   "config": {
     "commitizen": {
